@@ -1,0 +1,125 @@
+@charset "ISO-8859-1";
+
+.customer-details-body {
+	background-color:#f3f3f7  !important;
+	padding:20px 0px;
+}
+
+.details-body {
+	background-color:#ffffff  !important;
+	padding:20px 0px;
+}
+
+.customer-details-header{
+	padding:20px 0px;
+	margin:20px 0px;
+	color:#000000;
+	font-size:14px;
+	font-weight:bold;
+	
+}
+
+
+
+.nav-item{
+	margin:5px 0px;
+}
+
+.customer-details-newslist{
+	margin: 20px 0px;
+	padding: 10px 10px;
+	background-color:white;
+	border-radius:5px;
+}
+
+.customer-details-body-menu{
+}
+
+.customer-profile-content{
+	font-size:14px;
+}
+
+a{
+	font-size:14px;
+}
+
+a:link {
+  text-decoration: none;
+  color:#9e9e9e;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#9e9e9e;
+}
+
+a:hover {
+   text-decoration: none !important;
+   color:#9e9e9e !important;
+}
+
+a:active {
+   text-decoration: none;
+   color:#9e9e9e;
+}
+
+body{
+	font-family:"Noto Sans SC" !important
+}
+
+.application-table{
+	font-size:14px;
+	line-height:1.71;
+	color:black;
+}
+
+.application-table tbody tr{
+	height:56px;
+}
+
+.application-table tbody tr td{
+	padding:0px 20px;
+}
+.application-table thead tr th{
+	padding:10px 20px;
+}
+
+.application-table tbody tr td:first-child { border-top-left-radius: 8px;border-bottom-left-radius: 8px; }
+.application-table tbody tr td:last-child { border-top-right-radius: 8px; border-bottom-right-radius: 8px;}
+
+.application-table tbody tr:nth-child(even) {background: #FFF}
+.application-table tbody tr:nth-child(odd) {background: #f5f5f5}
+
+.pagenation li{
+	display:inline;
+	margin: 0px 15px;
+	font-size:14px;
+	padding:4px 8px;
+	border-radius:4px;
+}
+
+.pagenation li.active{
+	background-color:#05af78;
+	color:white;
+}
+
+.login-image img{
+	max-width:100%;
+	max-height:100%;
+	border-radius:16px;
+}
+
+.login-content{
+	padding:32px 32px;
+	box-shadow: 2px 2px 16px 0 rgba(0, 0, 0, 0.1);
+	border-radius:16px;
+}
+
+.major-list-header{
+	background-image:url("../images/major-list.jpg");
+	backgroud-size:cover;
+	height:480px;
+	color:#ffffff !important;
+	font-size:14px;
+	font-weight:bold;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Unicube</display-name>
+  <welcome-file-list>
+    <welcome-file>Redirect_Home</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>com.auth0.domain</param-name>
+    <param-value>wangquan.eu.auth0.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>com.auth0.clientId</param-name>
+    <param-value>RCKAdkrK2P5GzAZ1GRmk2qWT0sxMELiy</param-value>
+  </context-param>
+  <context-param>
+    <param-name>com.auth0.clientSecret</param-name>
+    <param-value>K6dOWb2ljKN5otBKzCE5JqtgR2MHqSBUh_PHwflba0iMKwxRDdOlcmM8eGMe4Uzu</param-value>
+  </context-param>
+</web-app>

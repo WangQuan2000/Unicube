@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/city-details.jsp=UTF-8
+encoding//WebContent/WEB-INF/major-details.jsp=UTF-8
+encoding//WebContent/WEB-INF/major-lists.jsp=UTF-8
+encoding//WebContent/WEB-INF/mentor-list.jsp=UTF-8
+encoding//src/com/Unicube/model/Program_Categories.java=UTF-8
+encoding//src/com/Unicube/model/School_Type.java=UTF-8
+encoding/<project>=UTF-8
+separateDerivedEncodings=true

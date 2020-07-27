@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+.major-list-header{
+	background-image:url("../images/major-list.jpg");
+    background-size: auto;
+    height:480px;
+    background-repeat:no-repeat;
+	color:#ffffff !important;
+	font-size:14px;
+	background-color:#ffd45c;
+	background-position:right top;
+	background-attachment: fixed;
+}
+
+a{
+	font-size:14px;
+	color:#ffffff !important;
+}
+
+a:link {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#ffffff;
+}
+
+a:hover {
+   text-decoration: none !important;
+  color:#ffffff;
+}
+
+a:active {
+   text-decoration: none;
+   color:#ffffff;
+}
+
+body{
+	font-family:"Noto Sans SC" !important
+}
+
+.major-list-body {
+	background-color:#f3f3f7  !important;
+	padding-top:52px;
+	font-size:14px;
+}
+
+.major-list-header-content{
+	margin:220px 0px;
+}

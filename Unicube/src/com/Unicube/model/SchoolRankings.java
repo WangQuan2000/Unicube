@@ -1,0 +1,52 @@
+package com.Unicube.model;
+
+import java.util.ArrayList;
+
+public class SchoolRankings {
+	private int id;
+	private String Name;
+	private String created_at;
+	private String updated_at;
+	ArrayList<SchoolRankings_School> schools = new ArrayList<SchoolRankings_School>();
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return Name;
+	}
+
+	public void setName(String name) {
+		Name = name;
+	}
+
+	public String getCreated_at() {
+		return created_at;
+	}
+
+	public void setCreated_at(String created_at) {
+		this.created_at = created_at;
+	}
+
+	public String getUpdated_at() {
+		return updated_at;
+	}
+
+	public void setUpdated_at(String updated_at) {
+		this.updated_at = updated_at;
+	}
+
+	public ArrayList<SchoolRankings_School> getSchools() {
+		return schools;
+	}
+
+	public void setSchools(ArrayList<SchoolRankings_School> schools) {
+		this.schools = schools;
+	}
+
+}
